@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #404E7C;
+  color: #404E7C;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 100px auto 25px auto;
+  font-size: 2.5rem;
+}
+.container {
+  background-color: #F5F3BB;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  min-height: 200px; 
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px #313B5E;
+}
+
+label {
+  color: #404E7C;
+  font-size: 1.3rem;
+}
+
+input {
+  background-color: #F5F3BB;
+  border: 0;
+  border-bottom: 3px solid #404E7C;
+  margin: 0 10px;
+  width: 50%;
+  padding: 7px
+
+}
+
+button {
+  margin: 0 10px;
+  padding: 7px;
+  background-color: #404E7C;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.definicion {
+  background-color: #D1B1C8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  min-height: 200px; 
+  margin: 20 auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px #313B5E;
+}
+
+.definicion p {
+  padding: 15px;
+}
+
+.cursiva {
+  font-style: italic;
+}
+
+.textoResultado {
+  display: none;
+}
